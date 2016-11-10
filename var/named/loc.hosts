@@ -1,0 +1,20 @@
+$ttl 500
+@	IN	SOA	ns.loc. admin.loc. (
+			1438077932
+			500
+			3600
+			604800
+			38400 )
+	NS	ns
+localhost	A	127.0.0.1
+ns		A	192.168.0.186
+ns1		A	192.168.0.1
+www		CNAME	ns
+test		A	192.168.0.90
+dev1	A	192.168.0.92
+dev	A	192.168.0.175
+av		A	192.168.0.107
+portal		A	192.168.0.85
+xz	A	192.168.50.40
+zt.local.	IN	A	192.168.50.53
+

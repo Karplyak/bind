@@ -1,0 +1,18 @@
+$ttl 500 
+@	IN	SOA	ns.loc. admin.loc. (
+			1438161230
+			10800
+			3600
+			604800
+			38400 )
+	NS	ns.local.
+186.0	PTR	ns.local.
+1.0	PTR	ns1.local.
+90.0	PTR	test.local.
+92.0	PTR	dev1.local.
+175.0	PTR	dev.local.
+107.0.168.192.in-addr.arpa.	PTR	av.local.
+85.0	PTR	portal.local.
+40.50.168.192.in-addr.arpa.	IN	PTR	xz.local.
+53.50.168.192.in-addr.arpa.	IN	PTR	zt.local.
+
