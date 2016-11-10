@@ -1,0 +1,2 @@
+# bind
+bind example config
